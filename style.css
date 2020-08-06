@@ -6,8 +6,12 @@ body {
 }
 
 h1 {
+  font-size: 50px;
   font-style: italic;
-  color: #373fff;
+  letter-spacing: 5px;
+  color: #B4CEB3;
+  text-shadow: 2px 2px #546A76;
+  text-align: center;
 }
 
 h2 {
