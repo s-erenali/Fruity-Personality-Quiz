@@ -22,10 +22,10 @@ var q1a4 = document.getElementById("q1a4");
 
 
 //#TODO: Add Event Listeners to your answer choice variables.
-q1a1.addEventListener("click", result1);
-q1a2.addEventListener("click", result2);
-q1a3.addEventListener("click", result3);
-q1a4.addEventListener("click", result4);
+q1a1.addEventListener("click", lemon);
+q1a2.addEventListener("click", watermelon);
+q1a3.addEventListener("click", cherry);
+q1a4.addEventListener("click", pineapple);
 
 
 
@@ -33,8 +33,9 @@ q1a4.addEventListener("click", result4);
 
 
 //#TODO: Define quiz functions here
-function result1(){
-  
+function lemon(){
+  lemonScore+= 1;
+  questionCount += 1;
   
   
 }
