@@ -51,6 +51,11 @@ q2a4.addEventListener("click", watermelon);
 function lemon(){
   lemonScore += 1;
   questionCount += 1;
+  
+  if (questionCount >= 3){
+    updateResult()
+  }
+  else
 }
 
 function watermelon(){
