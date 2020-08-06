@@ -16,7 +16,15 @@ var q1a2 = document.getElementById("q1a2");
 var q1a3 = document.getElementById("q1a3");
 var q1a4 = document.getElementById("q1a4");
 
+var q2a1 = document.getElementById("q2a1");
+var q2a2 = document.getElementById("q2a2");
+var q2a3 = document.getElementById("q2a3");
+var q2a4 = document.getElementById("q2a4");
 
+var q3a1 = document.getElementById("q3a1");
+var q3a2 = document.getElementById("q3a2");
+var q3a3 = document.getElementById("q3a3");
+var q3a4 = document.getElementById("q3a4");
 
 
 
@@ -27,6 +35,13 @@ q1a2.addEventListener("click", watermelon);
 q1a3.addEventListener("click", cherry);
 q1a4.addEventListener("click", pineapple);
 
+q2a1.addEventListener("click", pineapple);
+q2a2.addEventListener("click", lemon);
+q2a3.addEventListener("click", cherry);
+q2a4.addEventListener("click", watermelon);
+
+
+
 
 
 
@@ -34,8 +49,21 @@ q1a4.addEventListener("click", pineapple);
 
 //#TODO: Define quiz functions here
 function lemon(){
-  lemonScore+= 1;
+  lemonScore += 1;
   questionCount += 1;
-  
-  
+}
+
+function watermelon(){
+  watermelonScore += 1;
+  questionCount += 1;
+}
+
+function cherry(){
+  lemonScore += 1;
+  questionCount += 1;
+}
+
+function pineapple(){
+  lemonScore += 1;
+  questionCount += 1;
 }
