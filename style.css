@@ -17,14 +17,15 @@ h1 {
 h2 {
   margin-top: 2em; 
   color: #546A76;
+  text-align: center;
 }
 
-.topIndiv {
+.rowIndiv {
   display:flex;
   flex-direction: column;
 }
 
-.top {
+.row {
   display: flex;
   flex-direction: row;
 }
