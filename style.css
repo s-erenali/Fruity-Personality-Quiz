@@ -16,10 +16,14 @@ h1 {
 
 h2 {
   margin-top: 2em; 
+  color: #546A76;
 }
 
 .question {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
   margin-top: 2em;
 }
   
