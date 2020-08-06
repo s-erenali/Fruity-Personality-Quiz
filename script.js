@@ -55,20 +55,31 @@ function lemon(){
   if (questionCount >= 3){
     updateResult()
   }
-  else
 }
 
 function watermelon(){
   watermelonScore += 1;
   questionCount += 1;
+  
+  if (questionCount >= 3){
+    updateResult()
+  }
 }
 
 function cherry(){
   lemonScore += 1;
   questionCount += 1;
+  
+  if (questionCount >= 3){
+    updateResult()
+  }
 }
 
 function pineapple(){
   lemonScore += 1;
   questionCount += 1;
+  
+  if (questionCount >= 3){
+    updateResult()
+  }
 }
