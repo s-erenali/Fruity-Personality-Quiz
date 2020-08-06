@@ -19,6 +19,17 @@ h2 {
   color: #546A76;
 }
 
+.topLeft {
+  display:flex;
+  flex-direction: column;
+}
+
+.topRight {
+  display:flex;
+  flex-direction: column;
+}
+
+
 .question {
   display: flex;
   flex-wrap: wrap;
