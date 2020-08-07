@@ -47,6 +47,8 @@ h2 {
 
 button {
   background-color: #FAD4D8;
+  border-radius: 12px;
+  height: 40px;
 }
 
 img {
@@ -56,5 +58,11 @@ img {
 .restart {
   display:flex;
   justify-content: center;
-  height: 40px;
+}
+
+#restartbtn {
+   border-radius: 12px;
+  height: 48px;
+  width: 100px;
+  background-color: #B4CEB3;
 }

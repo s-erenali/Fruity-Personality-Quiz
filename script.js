@@ -9,6 +9,9 @@ var pineappleScore = 0;
 
 var result = document.getElementById("result");
 
+var retake = document.getElementById("restart");
+retake.addEventListener("click", restart);
+
 
 
 //#TODO: Use the DOM to create variables for the first quiz question.
@@ -109,4 +112,9 @@ function updateResult() {
   else{
     result.innerHTML = "Didn't quit get that, please retake the quiz.";
   }
+}
+
+function restart() {
+  retake.innerHTML = "Your personality represents the fruit... ";
+  
 }
