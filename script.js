@@ -76,7 +76,7 @@ function watermelon(){
 }
 
 function cherry(){
-  lemonScore += 1;
+  cherryScore += 1;
   questionCount += 1;
   
   if (questionCount >= 3){
@@ -85,7 +85,7 @@ function cherry(){
 }
 
 function pineapple(){
-  lemonScore += 1;
+  pineappleScore += 1;
   questionCount += 1;
   
   if (questionCount >= 3){
@@ -96,12 +96,18 @@ function pineapple(){
 
 function updateResult() {
   if (lemonScore >= 2){
-    result.innerHTML = "LEMON"; 
+    result.innerHTML = "You are a... LEMON!"; 
   }
   else if (watermelonScore >= 2){
-    result.innerHTML = "WATERMELON";
+    result.innerHTML = "You are a... WATERMELON!";
   }
   else if (cherryScore >= 2){
-    result.innerHTML = "CHERRY";
+    result.innerHTML = "You are a... CHERRY!   The cherry on top~ You are an extrovert always expressing yourself and not being afraid to! ";
+  }
+  else if (pineappleScore >= 2){
+    result.innerHTML = "You are a... PINEAPPLE!   Often known as the wild one of the group. You are up for adventures and can be spontaneous. Basically, people think of you as a fun person!";
+  }
+  else{
+    result.innerHTML = "Didn't quit get that, please retake the quiz.";
   }
 }
