@@ -105,7 +105,13 @@ function pineapple(){
 
 function updateResult() {
  
-  if (lemonScore >= 3){
+  if (lemonScore == watermelonScore){
+    result.innerHTML = "You are a mix of LEMON and WATERMELON!   You can be sweet or sour, depending on who you are around. When people first meet you, it takes time for you to start being yourself around them. But once people get to know you, you become their favorite person! A refreshing addition to people's lives. But at other times, you are calm and just going with the flow of things. You don't really mind when someone else takes control or when making friends. You will fit in and go well together with anyone!"
+  }
+  else if (lemonScore == cherryScore){
+        result.innerHTML = "You are a mix of LEMON and WATERMELON!   You can be sweet or sour, depending on who you are around. When people first meet you, it takes time for you to start being yourself around them. But once people get to know you, you become their favorite person! A refreshing addition to people's lives. But at other times, you are the cherry on top~ You are an extrovert always expressing yourself and not being afraid to! People find you sweet and have an unavoidable attraction to you."
+  }
+  else if (lemonScore >= 3){
     result.innerHTML = "You are a... LEMON!   You can be sweet or sour, depending on who you are around. When people first meet you, it takes time for you to start being yourself around them. But once people get to know you, you become their favorite person! A refreshing addition to people's lives."; 
   }
   else if (watermelonScore >= 3){
