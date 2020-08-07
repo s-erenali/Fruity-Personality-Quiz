@@ -3,7 +3,7 @@
 body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
-  color: #FFB800
+  background-color: #FFB800;
 }
 
 h1 {
@@ -11,7 +11,7 @@ h1 {
   font-style: italic;
   letter-spacing: 5px;
   color: #B4CEB3;
-  text-shadow: 2px 2px #546A76;
+  text-shadow: 2px 5px #546A76;
   text-align: center;
 }
 
@@ -53,7 +53,7 @@ button {
 }
 
 img {
-  border: inset 8px  #7B435B;
+  border: inset 8px  #CD8B76;
 }
 
 .restart {
@@ -62,8 +62,17 @@ img {
 }
 
 #restartbtn {
-   border-radius: 12px;
+  border-radius: 12px;
   height: 48px;
   width: 100px;
-  background-color: #B4CEB3;
+  background-color: #88A0A8;
+  color: white;
+  text-shadow: 3px 2px #546A76;
+}
+
+#result {
+  color: #B4CEB3;
+  text-shadow: 3px 2px #546A76;
+  r: #FAD4D8;
+
 }
