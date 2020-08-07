@@ -41,9 +41,12 @@ q2a3.addEventListener("click", cherry);
 q2a4.addEventListener("click", watermelon);
 
 
+q3a1.addEventListener("click", lemon);
+q3a2.addEventListener("click", cherry);
+q3a3.addEventListener("click", pineapple);
+q3a4.addEventListener("click", watermelon);
 
-
-
+// q4a1.addEventListener("click", lemon);
 
 
 
@@ -55,6 +58,8 @@ function lemon(){
   if (questionCount >= 3){
     updateResult()
   }
+  
+  alert("One Point for lemon!");
 }
 
 function watermelon(){
