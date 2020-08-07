@@ -9,8 +9,6 @@ var pineappleScore = 0;
 
 var result = document.getElementById("result");
 
-var retake = document.getElementById("restart");
-retake.addEventListener("click", restart);
 
 
 
@@ -114,7 +112,15 @@ function updateResult() {
   }
 }
 
+// restart button
+var retake = document.getElementById("restartbtn");
+retake.addEventListener("click", restart);
+
 function restart() {
-  retake.innerHTML = "Your personality represents the fruit... ";
-  
+  result.innerHTML = "Your personality represents the fruit... ";
+  lemonScore = 0;
+  watermelonScore = 0;
+  cherryScore = 0;
+  pineappleScore = 0;
+  questionCount = 0;
 }
