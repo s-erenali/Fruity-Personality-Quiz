@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-  margin-top: 1em; 
+  margin-top: 2em; 
   color: #546A76;
   text-align: center;
 }
@@ -30,7 +30,7 @@ h2 {
   flex-direction: column;
   padding-right: 100px;
   padding-left: 100px;
-  padding-bottom: 95px;
+  padding-bottom: 95px; 
 }
 
 .row {
@@ -43,7 +43,7 @@ h2 {
   flex-wrap: wrap;
   flex-direction: column;
   align-content: center;
-  margin-top: 2em;
+  margin-top: 3em;
 }
   
 .answer-choice img {
@@ -55,10 +55,12 @@ button {
   border-radius: 12px;
   height: 40px;
   color: white;
+  font-size: 20px;
 }
 
 img {
   border: inset 8px  #CD8B76;
+  width: 230px;
 }
 
 .restart {
@@ -86,9 +88,5 @@ img {
   padding-top: 1em;
   padding-left: 600px;
   margin: -100px;
+  width: 350px;
 }
-
-/* .fruitpic {
-  display: flex;
-  flex-direction: column;
-} */
