@@ -135,7 +135,7 @@ function updateResult() {
         result.innerHTML = "You are a... mix of CHERRY and PINEAPPLE!   The cherry on top~ You are an extrovert always expressing yourself and not being afraid to! People find you sweet and have an unavoidable attraction to you. But also! you are known as the wild one of the group. You are up for adventures and can be spontaneous. Basically, people think of you as a fun person! People always want to take you on trips because you will definitely spice things up.";
 
   }
-    else if (lemonScore >= 3){
+  else if (lemonScore >= 3){
     result.innerHTML = "You are a... LEMON!   You can be sweet or sour, depending on who you are around. When people first meet you, it takes time for you to start being yourself around them. But once people get to know you, you become their favorite person! A refreshing addition to people's lives."; 
   }
   else if (watermelonScore >= 3){
@@ -146,6 +146,17 @@ function updateResult() {
   }
   else if (pineappleScore >= 3){
     result.innerHTML = "You are a... PINEAPPLE!   Often known as the wild one of the group. You are up for adventures and can be spontaneous. Basically, people think of you as a fun person! People always want to take you on trips because you will definitely spice things up.";
+  }
+  else if (lemonScore == 2){
+        result.innerHTML = "You are a... LEMON!   You can be sweet or sour, depending on who you are around. When people first meet you, it takes time for you to start being yourself around them. But once people get to know you, you become their favorite person! A refreshing addition to people's lives."; 
+
+  }
+  else if (watermelonScore == 2){
+        result.innerHTML = "You are a... WATERMELON!   Most of the time, you are calm and just going with the flow of things. You don't really mind when someone else takes control or when making friends. You will fit in and go well together with anyone!";
+
+  }
+  else if (cherryScore == 2){
+    
   }
   else{
     result.innerHTML = "Didn't quit get that, please retake the quiz.";
