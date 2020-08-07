@@ -70,7 +70,7 @@ img {
 
 #restartbtn {
   border-radius: 12px;
-  height: 48px;
+  height: 52px;
   width: 100px;
   background-color: #CD8B76;
   color: white;
@@ -89,4 +89,10 @@ img {
   padding-left: 600px;
   margin: -100px;
   width: 350px;
+}
+
+h6 {
+  color: #0D0628;
+  text-align: center;
+  margin-top: 5px;
 }
