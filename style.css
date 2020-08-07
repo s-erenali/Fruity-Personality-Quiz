@@ -23,7 +23,9 @@ h2 {
 .rowIndiv {
   display:flex;
   flex-direction: column;
-  padding-right: 55px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 95px;
 }
 
 .row {
@@ -41,4 +43,12 @@ h2 {
   
 .answer-choice img {
   height: 10em;
+}
+
+button {
+  background-color: #FAD4D8;
+}
+
+img {
+  border: inset 8px  #7B435B;
 }
