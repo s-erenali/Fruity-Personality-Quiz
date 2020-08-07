@@ -23,6 +23,7 @@ h2 {
 .rowIndiv {
   display:flex;
   flex-direction: column;
+  padding-right: 55px;
 }
 
 .row {
