@@ -16,9 +16,13 @@ h1 {
 }
 
 h2 {
-  margin-top: 2em; 
+  margin-top: 1em; 
   color: #546A76;
   text-align: center;
+}
+
+#subtitle {
+  margin-top: 5em;
 }
 
 .rowIndiv {
@@ -76,3 +80,15 @@ img {
   text-shadow: 3px 2px #B4CEB3;
 
 }
+
+#fruits {
+  border: transparent;
+  padding-top: 1em;
+  padding-left: 600px;
+  margin: -100px;
+}
+
+/* .fruitpic {
+  display: flex;
+  flex-direction: column;
+} */
